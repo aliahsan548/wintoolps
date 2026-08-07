@@ -1,0 +1,13 @@
+# Normalize line endings
+
+# Language detection rules
+Cargo.lock linguist-generated
+
+dist/* linguist-vendored
+*.ico binary
+*.png binary
+public/*.html linguist-vendored 
+*.tsx linguist-detectable
+*.ts linguist-detectable
+*.svg text   
+*.min.css linguist-generated
